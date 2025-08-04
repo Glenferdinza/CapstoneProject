@@ -175,9 +175,9 @@ if data_dict['status'] == 'fraud_detection_loaded':
             with col2:
                 st.markdown("**Model Performance Summary:**")
                 st.write("- Cross-validation accuracy: 99.81% ± 0.14%")
-                st.write("- Fraud detection recall: 99.30% (excellent fraud catching)")
-                st.write("- F1-Score: 99.39% (balanced precision and recall)")
-                st.write("- Low overfitting gap: 0.19% (technically sound)")
+                st.write("- Fraud detection recall: 99.30%")
+                st.write("- F1-Score: 99.39%")
+                st.write("- Low overfitting gap: 0.19%")
             
             # Findings and Conclusions
             st.subheader("Key Findings")
@@ -449,10 +449,10 @@ if data_dict['status'] == 'fraud_detection_loaded':
         with col2:
             st.info("""
             **Optimization Results:**
-            - **5->8 Features**: Added key fraud indicators
+            - **13->8 Features**: Added key fraud indicators
             - **Hyperparameter Tuning**: Optimized RandomForest
             - **Smart Selection**: Accuracy >=90% + High F1
-            - **Production Ready**: 99.78% accuracy achieved!
+            - **Production Ready**: 99.78%
             """)
         
         # Performance comparison
@@ -470,14 +470,14 @@ if data_dict['status'] == 'fraud_detection_loaded':
             st.metric(
                 label="Feature Optimization",
                 value="8 Features",
-                delta="+3 Features"  # From 5 to 8 features
+                delta="-5 Features"
             )
         
         with col3:
             st.metric(
                 label="Model Enhancement",
                 value="RandomForest_Tuned",
-                delta="New Best Model"
+                delta="Best Model"
             )
         
         # Performance visualization
@@ -544,14 +544,7 @@ if data_dict['status'] == 'fraud_detection_loaded':
                     precision = precision_score(y_true, y_pred, average='weighted', zero_division=0)
                     recall = recall_score(y_true, y_pred, average='weighted', zero_division=0)
                     f1 = f1_score(y_true, y_pred, average='weighted', zero_division=0)
-                    
-                    # Display metrics
-                    col1, col2, col3, col4 = st.columns(4)
-                    col1.metric("Accuracy", f"{accuracy:.3f}")
-                    col2.metric("Precision", f"{precision:.3f}")
-                    col3.metric("Recall", f"{recall:.3f}")
-                    col4.metric("F1-Score", f"{f1:.3f}")
-                    
+                                        
                     # Confusion matrix
                     st.subheader("Confusion Matrix")
                     cm = confusion_matrix(y_true, y_pred)
