@@ -6,8 +6,6 @@ Aplikasi machine learning untuk deteksi fraud kartu kredit menggunakan pendekata
 
 **Dashboard tersedia di:** [https://capstoneproject-01-glenferdinza.streamlit.app/](https://capstoneproject-01-glenferdinza.streamlit.app/)
 
-> **Status**: Deployment sedang dalam proses. Jika terjadi error, akan diperbaiki secara otomatis.
-
 ## Deskripsi Project
 
 Dashboard ini menggunakan pendekatan unsupervised learning untuk mengidentifikasi pola fraud dalam transaksi kartu kredit. Model dibangun menggunakan:
