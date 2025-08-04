@@ -2,7 +2,7 @@
 
 Aplikasi machine learning untuk deteksi fraud kartu kredit menggunakan pendekatan unsupervised learning dan clustering analysis.
 
-## 🚀 Live Demo
+## Live Demo
 
 **Dashboard tersedia di:** [https://capstoneproject-01-glenferdinza.streamlit.app/](https://capstoneproject-01-glenferdinza.streamlit.app/)
 
@@ -62,8 +62,7 @@ Model ini menggunakan **pseudo-labeling** approach dimana fraud labels dihasilka
 ### Local Development
 ```bash
 # Clone repository
-git clone https://github.com/Glenferdinza/Tugas-Proyek-Akhir-Dicoding.git
-cd Tugas-Proyek-Akhir-Dicoding/python_format
+git clone https://github.com/Glenferdinza/CapstoneProject
 
 # Install dependencies
 pip install -r requirements.txt
@@ -71,15 +70,6 @@ pip install -r requirements.txt
 # Run application
 streamlit run app.py
 ```
-
-### Streamlit Cloud Deployment
-1. Fork this repository
-2. Go to [share.streamlit.io](https://share.streamlit.io/)
-3. Connect your GitHub account
-4. Select repository and branch
-5. Set main file path: `python_format/app.py`
-6. Deploy!
-
 ## File Structure
 
 ```
@@ -95,7 +85,7 @@ python_format/
 └── CC GENERAL.csv                  # Original dataset
 ```
 
-## 🔧 Model Files Required
+## Model Files Required
 
 Pastikan semua file model berikut ada di repository:
 - `optimized_clustering_cc.h5` - K-means clustering model
@@ -116,9 +106,9 @@ Pastikan semua file model berikut ada di repository:
 ## Contributing
 
 1. Fork the repository
-2. Create feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
+2. Create feature branch (`git checkout -b feature/newFeature`)
+3. Commit changes (`git commit -m 'Add newFeature'`)
+4. Push to branch (`git push origin feature/newFeature`)
 5. Open Pull Request
 
 ## License
