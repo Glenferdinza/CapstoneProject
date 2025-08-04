@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection Dashboard
 
-Aplikasi machine learning untuk deteksi fraud kartu kredit menggunakan pendekatan unsupervised learning dan clustering analysis.
+Sistem deteksi fraud kartu kredit berbasis machine learning yang menggabungkan unsupervised learning (K-Means clustering) untuk segmentasi customer dan supervised learning (Random Forest, XGBoost, Logistic Regression, Isolation Forest) untuk klasifikasi fraud + detect anomaly using Isolation Forest.
 
 ## Live Demo
 
