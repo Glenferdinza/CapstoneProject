@@ -111,7 +111,7 @@ Pastikan semua file model berikut ada di repository:
 | Recall | 99.30% | Fraud detection |
 | F1-Score | 99.39% | Balanced metric |
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create feature branch (`git checkout -b feature/AmazingFeature`)
@@ -119,12 +119,12 @@ Pastikan semua file model berikut ada di repository:
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 📧 Contact
+## Contact
 
-**Glen Ferdinza** - [GitHub](https://github.com/Glenferdinza)
+**GlenFerdinza** - [GitHub](https://github.com/Glenferdinza)
 
-Project Link: [https://github.com/Glenferdinza/Tugas-Proyek-Akhir-Dicoding](https://github.com/Glenferdinza/Tugas-Proyek-Akhir-Dicoding)
+Project Link: [https://github.com/Glenferdinza/CapstoneProject/tree/main](https://github.com/Glenferdinza/CapstoneProject/tree/main)
