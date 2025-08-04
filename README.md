@@ -118,3 +118,6 @@ The IBM Granite model performs comprehensive analysis across four key dimensions
 - **Scalable Intelligence**: Consistent analysis quality across different scenarios
 
 This AI-enhanced approach ensures that the fraud detection pipeline not only identifies potential fraud but also provides the business context and strategic guidance necessary for effective implementation and operation.
+
+Created By : Glenferdinza A.
+Email : asyadda05@gmail.com
