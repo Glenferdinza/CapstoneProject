@@ -55,6 +55,15 @@ Dashboard ini menggunakan pendekatan unsupervised learning untuk mengidentifikas
 
 Model ini menggunakan **pseudo-labeling** approach dimana fraud labels dihasilkan dari clustering analysis, bukan dari ground truth data. Performance metrics mencerminkan konsistensi clustering, bukan validasi terhadap actual fraud cases.
 
+## Environment Setup
+
+This application was developed using:
+- Python 3.12.11
+- Conda environment management
+- Dependencies as specified in requirements.txt
+
+For local development, ensure you have a compatible Python version and install dependencies via pip or conda.
+
 ## Deployment Instructions
 
 ### Local Development
