@@ -1,4 +1,4 @@
-# Advanced Credit Card Fraud Detection Pipeline
+# Credit Card Fraud Detection as IBM SkilssBuild Capstone Project 
 
 ## Project Overview
 
@@ -120,6 +120,6 @@ The IBM Granite model performs comprehensive analysis across four key dimensions
 This AI-enhanced approach ensures that the fraud detection pipeline not only identifies potential fraud but also provides the business context and strategic guidance necessary for effective implementation and operation.
 
 Created By : Glenferdinza A.
-
 Email : asyadda05@gmail.com
+
 
