@@ -2,9 +2,11 @@
 
 Aplikasi machine learning untuk deteksi fraud kartu kredit menggunakan pendekatan unsupervised learning dan clustering analysis.
 
-## Live Demo
+## 🚀 Live Demo
 
-**Dashboard tersedia di:** [https://your-app-name.streamlit.app/](https://your-app-name.streamlit.app/)
+**Dashboard tersedia di:** [https://capstoneproject-01-glenferdinza.streamlit.app/](https://capstoneproject-01-glenferdinza.streamlit.app/)
+
+> **Status**: Deployment sedang dalam proses. Jika terjadi error, akan diperbaiki secara otomatis.
 
 ## Deskripsi Project
 
